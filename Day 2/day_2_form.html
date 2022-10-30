@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+      Form<br />
+<form>
+    <fieldset>
+        <legend>Details:</legend>
+        <label for="name"><b>Username:</b></label>
+        <input type="text" id="name" />
+    <label for="password"><b>Password:</b></label>
+    <input type="password" id="password" />
+  </body>
+  <br />
+  <br />
+  Radio<br />
+  <b>Gender:</b>
+  <input type="radio" name="r1" />Male
+  <!--name attribute is used for linking different option in radio-->
+  <input type="radio" name="r1" />Female
+  <input type="radio" name="r1" />trans
+  <br />
+  <br />
+  checkbox<br>
+  <b>Eductaional Qualification:</b>
+  <input type="checkbox" name="c1">10th pass
+  <input type="checkbox" name="c1">12th pass
+  <input type="checkbox" name="c1">Graduate
+  <br />
+  <br />
+
+  Options<br />
+    <label for="food">Favourite Food:</label>
+    <select id="food">
+      <option>Indian</option>
+      <option>Chinese</option>
+      <option>Pizza</option>
+    </select>
+    <br />
+    <label for="year">Which Year are you in:</label>
+    <select id="year">
+      <!--The group of options are written between select tag and it is used to link it with label-->
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+    <br />
+    <br />
+    Text area<br />
+    <label for="addr">Address:</label>
+    <textarea id="addr" placeholder="Your address" required></textarea
+        ><!--Required feild is used to mark the fieldd must to be filled-->
+
+    <br />
+    <label for="no.">Your number:</label>
+    <textarea id="no." placeholder="Your contact no." required cols="20" rows="1"></textarea
+        ><!--Required feild is used to mark the fieldd must to be filled-->
+    <br />
+    <br />
+    <button type="submit" >Save changes</button>
+    <button type="reset" onclick="alert('Are you Sure?')">Clear</button>
+    </fieldset>
+  </form>
+</html>

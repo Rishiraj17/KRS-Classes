@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--INTERNAL STYLE-->
+    <style>
+      body {
+        background-color: pink;
+      }
+      #rishi {
+        color: blue;
+      }
+      #aditya {
+        color: yellow;
+      }
+      .last {
+        color: red;
+      }
+      div {
+        background-color: yellow;
+      }
+      div > p {
+        font-size: 4px;
+      }
+      .c {
+        float: left;
+      }
+      .c1,
+      .c2,
+      .c3 {
+        float: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="rishi">Rishi</h1>
+    <h1 class="last">Raj</h1>
+    <h1 id="aditya">Aditya</h1>
+    <h1 class="last">bhaiya</h1>
+    <p style="background-color: bisque; color: brown">
+      This is an example of inline style.
+    </p>
+    <div>
+      <p>This is a paragraph 1</p>
+      <!-- this is direct child of div-->
+      <p>This is a paragraph 2</p>
+      <!-- this is direct child of div-->
+      <section>
+        <p>This is a paragraph 3</p>
+        <!-- this is not a direct child of div and it is decendent of div--><!--any style to the decendent will not effect child-->
+      </section>
+      <p>This is a paragraph 4</p>
+      <!-- this is direct child of div-->
+    </div>
+    <div class="c">
+      <div class="c1">lorem</div>
+      <div class="c2">lorem</div>
+      <div class="c3">lorem</div>
+    </div>
+  </body>
+</html>

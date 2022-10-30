@@ -1,0 +1,47 @@
+button{
+    
+    background-color:#181818;
+    font-size:20px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:40px;
+    border-color:#181818;
+    color: white;
+}
+
+img{
+    float: left;
+    padding-left: 100px;
+    padding-right: 81px;
+    padding-top: 43px;
+    padding-bottom: 10px;
+}
+
+.heading{
+    text-align: center;
+    font-size:90px;
+    color:white;
+    margin:10px;
+}
+
+#H2{
+    margin-bottom:30px ;
+}
+
+p{
+    text-align: center;
+    width: 28%;
+    margin: 0 auto;
+    color:white;
+    font-size: 20px;
+}
+
+#free{
+    margin-left: 36%;
+}
+
+#learn{
+    margin-right: 36%;
+}

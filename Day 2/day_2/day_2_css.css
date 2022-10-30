@@ -1,0 +1,6 @@
+div {
+    background-color: yellow;
+  }
+div > p {
+    font-size: 4px;
+  }
