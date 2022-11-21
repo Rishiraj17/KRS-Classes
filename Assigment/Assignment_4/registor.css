@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+}
+/* nav-bar */
+.nav{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 0px 30px;
+    position: sticky;
+    top:0px;
+}
+
+.nav-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:400px;
+}
+
+.links{
+    font-size:x-large;
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+
+}
+.btn1{
+    background-color: green;
+}
+.btn2{
+    background-color: red;
+}
+.btn1,.btn2{
+    text-decoration: none;
+    color:white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: large;
+
+}
+
+/* registor */
+.Register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    flex-direction: column;
+}
+
+.Register-box{
+    border: 2px solid black;
+    width: 1000px;
+    background-color:rgba(170, 182, 198, 0.5);
+    height:max-content;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+.error{
+    color:red;
+}
+span{
+    font-weight:bolder;
+}
+/* footer */
+hr{
+    background-color: black;
+    width: 80%;
+    height: 3px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+}

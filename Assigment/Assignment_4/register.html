@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./registor.css" />
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <div class="nav">
+      <div>
+        <img
+          src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png"
+          alt="KRS logo"
+          height="50px"
+          width="50px"
+        />
+      </div>
+      <div class="nav-cont">
+        <div><a class="links" href="./index.html">HOME</a></div>
+        <div><a class="links" href="./index.html#aboutus">ABOUT US</a></div>
+        <div><a class="links" href="#contactme">CONTACT ME</a></div>
+      </div>
+      <div class="btn-nav">
+        <a class="btn1" href="login.html">Log In</a>
+        <a class="btn2" href="">Register</a>
+      </div>
+    </div>
+    <!-- form -->
+    <div class="Register">
+      <div class="Register-box">
+        <h1>Registration Form</h1>
+        <br />
+        <form id="myForm">
+          <div class="user-box">
+            <label for="Name"><span> Name:</span></label>
+            <input
+              type="text"
+              class="form-input"
+              name="Name"
+              placeholder="Enter your name"
+            />
+            <div class="error" id="nameErr"></div>
+          </div>
+          <br />
+          <div class="phone">
+            <label for="number"><span>Phone Number:</span> </label>
+            <input
+              type="number"
+              name="pnum"
+              id="pnum"
+              placeholder="Enter Phone No here"
+            />
+            <div class="error" id="numberErr"></div>
+          </div>
+          <br />
+          <div class="email">
+            <label for="Email"><span>Email:</span></label>
+            <input
+              type="text"
+              name="Email"
+              id="Email"
+              placeholder="Enter your Email here"
+            />
+            <div class="error" id="emailErr"></div>
+          </div>
+          <br />
+          <div class="gender">
+            <span>Gender:</span>
+            <input type="radio" name="Gender" id="male" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female" value="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="Gender" id="other" value="other" />
+            <label for="other">Other</label>
+            <div class="error" id="genderErr"></div>
+          </div>
+          <br />
+          <div class="Qulification">
+            <span>Qulification:</span>
+            <input type="radio" name="Qual" id="Student" value="Student" />
+            <label for="Student">Student</label>
+            <input type="radio" name="Qual" id="Teacher" value="Teacher" />
+            <label for="Teacher">Teacher</label>
+            <div class="error" id="quliErr"></div>
+          </div>
+          <br />
+          <div class="course">
+            <span>course:</span>
+            <input
+              type="radio"
+              name="course"
+              id="Web-development"
+              value="Web-development"
+            />
+            <label for="Web-development">Web-development</label>
+            <input
+              type="radio"
+              name="course"
+              id="App-Development"
+              value="App-Development"
+            />
+            <label for="App-Development">App-Development</label>
+            <div class="error" id="courseErr"></div>
+          </div>
+          <br />
+          <div class="country">
+            <label for="Country"><span>Country:</span></label>
+            <select name="Country" id="Country">
+              <option value="India" selected>India</option>
+              <option value="China">China</option>
+              <option value="USA">USA</option>
+              <option value="Russia">Russia</option>
+            </select>
+            <div class="error" id="countryErr"></div>
+          </div>
+          <br />
+          <div class="Condition">
+            <span>Conditions:</span>
+            <p>
+              1.Each user shall only registor once.<br />
+              2.It is the User's responsiblilty to make sure that she/he has
+              sufficient access to internet to participate to the activities at
+              the desired extent.
+            </p>
+            <input
+              type="checkbox"
+              name="condition"
+              id="condition"
+              value="agreed"
+            />
+            <label for="condition"
+              >"I have read and agreed to the conditions."</label
+            >
+            <div class="error" id="conditionErr"></div>
+          </div>
+          <br />
+          <div class="comments">
+            <label for="comment"><span>Comments:</span></label>
+            <textarea
+              name="comment"
+              id="comment"
+              cols="20"
+              rows="5"
+              placeholder="Enter your feedback here"
+            ></textarea>
+          </div>
+          <br />
+          <div class="button">
+            <button type="button" id="submit">save changes</button>
+            <button type="reset">clear</button>
+          </div>
+          <br />
+          <div class="error" id="formErr"></div>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <center><hr /></center>
+    <div class="footer" id="contactme">
+      <div class="logo">
+        <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="" />
+      </div>
+      <div class="contact-links">
+        <div class="contact">
+          <h2>Sitemp</h2>
+          <h3>Home</h3>
+          <h3>About Us</h3>
+          <h3>Contact Us</h3>
+        </div>
+        <div class="contact">
+          <h2>Contant Us</h2>
+          <h3>Instagram</h3>
+          <h3>Facebool</h3>
+          <h3>Youtube</h3>
+          <h3>Email</h3>
+        </div>
+      </div>
+    </div>
+    <script src="./registor.js"></script>
+  </body>
+</html>

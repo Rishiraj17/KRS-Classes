@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <div class="nav">
+      <div>
+        <img
+          src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png"
+          alt="KRS logo"
+          height="50px"
+          width="50px"
+        />
+      </div>
+      <div class="nav-cont">
+        <div><a class="links" href="./index.html#home">HOME</a></div>
+        <div><a class="links" href="./index.html#aboutus">ABOUT US</a></div>
+        <div><a class="links" href="#contactme">CONTACT ME</a></div>
+      </div>
+      <div class="btn-nav">
+        <a class="btn1" href="login.html">Log In</a>
+        <a class="btn2" href="./register.html">Register</a>
+      </div>
+    </div>
+    <!-- login -->
+    <div class="login">
+      <div class="login-box">
+        <h1>LOGIN</h1>
+        <br />
+        <form id="myForm">
+          <div class="user-box">
+            <label for="username">Username:</label><br />
+            <input
+              type="text"
+              name="Name"
+              class="form-input"
+              placeholder="Enter Your Name"
+            />
+            <div class="error" id="usernameErr"></div>
+            <br />
+          </div>
+
+          <div class="password">
+            <br />
+            <label for="password">Password:</label><br />
+            <input
+              type="text"
+              name="Pass"
+              class="form-input"
+              placeholder="Enter Password"
+            />
+            <div class="error" id="passwordErr"></div>
+            <br />
+          </div>
+          <div>
+            <button type="button" class="btn3" id="submit">Submit</button>
+            <button type="reset" class="btn3" id="clear">Clear</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <center><hr /></center>
+    <div class="footer" id="contactme">
+      <div class="logo">
+        <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="" />
+      </div>
+      <div class="contact-links">
+        <div class="contact">
+          <h2>Sitemp</h2>
+          <h3>Home</h3>
+          <h3>About Us</h3>
+          <h3>Contact Us</h3>
+        </div>
+        <div class="contact">
+          <h2>Contant Us</h2>
+          <h3>Instagram</h3>
+          <h3>Facebool</h3>
+          <h3>Youtube</h3>
+          <h3>Email</h3>
+        </div>
+      </div>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>

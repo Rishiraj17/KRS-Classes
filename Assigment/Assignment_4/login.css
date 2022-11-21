@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* nav-bar */
+.nav{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 0px 30px;
+    position: sticky;
+    top:0px;
+}
+
+.nav-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:400px;
+}
+
+.links{
+    font-size:x-large;
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+
+}
+.btn1{
+    background-color: green;
+}
+.btn2{
+    background-color: red;
+}
+.btn1,.btn2{
+    text-decoration: none;
+    color:white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    font-size: large;
+
+}
+/* Login page */
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.login-box{
+    border: 2px solid black;
+    width: 250px;
+    background-color:rgba(170, 182, 198, 0.5);
+    height: fit-content;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+.login-box h1{
+    text-align: center;
+}
+.user-box{
+    font-size: large;
+}
+.form-input{
+    padding: 10px 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(82, 82, 185, 0.3) ;
+    width: 100%;
+}
+
+.btn3{
+    background-color:rgba(115, 143, 196, 0.5);
+    padding: 6px;
+    font-size:16px;
+    border-radius:10px;
+    border:1px solid grey;
+}
+/* footer */
+hr{
+    background-color: black;
+    width: 80%;
+    height: 3px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+}
